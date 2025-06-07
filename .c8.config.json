@@ -1,0 +1,16 @@
+{
+  "reporter": ["text", "lcov", "html"],
+  "exclude": [
+    "coverage/**",
+    "dist/**",
+    "src/**/*.test.{js,ts}",
+    "src/**/test.{js,ts}",
+    "eslint.config.js"
+  ],
+  "all": true,
+  "check-coverage": true,
+  "lines": 90,
+  "functions": 90,
+  "branches": 85,
+  "statements": 90
+}
