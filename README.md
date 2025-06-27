@@ -55,6 +55,5 @@ Control how partially included elements are handled:
 {
   preserveBlocks: true,        // Keep empty blocks after slicing
   trimWhitespace: false,       // Trim whitespace at boundaries
-  handlers: {}                 // Custom node handlers
 }
 ```
