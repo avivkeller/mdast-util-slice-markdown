@@ -7,7 +7,7 @@ import globals from 'globals'
 export default [
   js.configs.recommended,
   {
-    files: ['**/*.{js,ts}'],
+    files: ['**/*.ts'],
     languageOptions: {
       parser: tsParser,
       parserOptions: {
@@ -30,11 +30,6 @@ export default [
     },
   },
   {
-    ignores: [
-      'node_modules/',
-      'dist/',
-      'coverage/',
-      '*.d.ts',
-    ],
+    ignores: ['node_modules/', 'dist/', 'coverage/', '*.d.ts'],
   },
 ]

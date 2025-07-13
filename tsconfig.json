@@ -5,13 +5,13 @@
     "moduleResolution": "Node",
     "declaration": true,
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": ".",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true
   },
-  "include": ["src/**/*", "test/index.test.mjs"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
