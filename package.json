@@ -1,6 +1,6 @@
 {
   "name": "mdast-util-slice-markdown",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Highly optimized MDAST tree slicing with configurable node behaviors",
   "type": "module",
   "main": "./dist/index.js",
